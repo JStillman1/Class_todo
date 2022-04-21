@@ -1,12 +1,17 @@
+import java.util.ArrayList;
+
 public class Gallery {
 
     private String name;
     private int till;
-    private Artwork[] artworks;
+
+    private ArrayList<Artwork> artworks = new ArrayList<>();
+
+
 
     //Constructors
 
-    public Gallery(String name, int till, Artwork[] artworks) {
+    public Gallery(String name, int till, ArrayList<Artwork> artworks) {
         this.name = name;
         this.till = till;
         this.artworks = artworks;

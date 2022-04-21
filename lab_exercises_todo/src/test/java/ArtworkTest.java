@@ -6,5 +6,6 @@ class ArtworkTest {
 
     @Test
     void getPrice() {
+
     }
 }
