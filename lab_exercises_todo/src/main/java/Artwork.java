@@ -5,6 +5,7 @@ public class Artwork {
     private int price;
     private String nft;
 
-
-
+    public int getPrice() {
+        return price;
+    }
 }

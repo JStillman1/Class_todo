@@ -4,5 +4,7 @@ public class Gallery {
     private int till;
     private Artwork[] artworks;
 
-
+    public int getTill() {
+        return till;
+    }
 }
