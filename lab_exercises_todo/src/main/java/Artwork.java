@@ -17,4 +17,6 @@ public class Artwork {
     public int getPrice() {
         return price;
     }
+
+
 }

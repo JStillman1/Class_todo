@@ -8,4 +8,5 @@ public class Artist {
         this.name = name;
         this.artwork = artwork;
     }
+
 }

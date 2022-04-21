@@ -21,4 +21,5 @@ public class Gallery {
     public void setTill(int till) {
         this.till = till;
     }
+
 }
