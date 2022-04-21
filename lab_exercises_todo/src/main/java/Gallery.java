@@ -17,4 +17,8 @@ public class Gallery {
     public int getTill() {
         return till;
     }
+
+    public void setTill(int till) {
+        this.till = till;
+    }
 }

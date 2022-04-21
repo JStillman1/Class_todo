@@ -11,6 +11,8 @@ public class Customer {
 
     void buyArt(Artwork artwork, Gallery gallery) {
         int price = artwork.getPrice();
+        this.wallet -= price;
+        gallery.setTill(gallery.getTill() + price);
 
     }
 
