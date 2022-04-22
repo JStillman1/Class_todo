@@ -1,9 +1,13 @@
+import java.util.ArrayList;
+
 public class Artwork {
 
     private String title;
     private String artist;
     private int price;
     private String nft;
+
+    private ArrayList<String> allNfts = new ArrayList<>();
 
 
     //Constructors
@@ -12,11 +16,20 @@ public class Artwork {
         this.artist = artist;
         this.price = price;
 
-        this.nft = nft;
+        this.setNft(nft);
+
     }
 
-    public String setNft(){
-        return "";
+    public void setNft(String nft1){
+        //Check if nft is in allNfts
+        if(allNfts.indexOf(nft1) == -1){
+            allNfts.add(nft1);
+            this.nft = nft1;
+        }
+        else{
+            System.out.println("NFT in use already");
+            this.nft = null;
+        }
     }
 
     public int getPrice() {
