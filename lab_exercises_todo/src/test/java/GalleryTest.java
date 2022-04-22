@@ -4,11 +4,5 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GalleryTest {
 
-    @Test
-    void getTill() {
-    }
 
-    @Test
-    void setTill() {
-    }
 }

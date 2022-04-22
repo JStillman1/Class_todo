@@ -4,8 +4,5 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ArtworkTest {
 
-    @Test
-    void getPrice() {
 
-    }
 }
